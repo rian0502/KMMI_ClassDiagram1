@@ -20,6 +20,6 @@ public class HourtlyEmployee extends Employee{
 
     @Override
     public int payment() {
-        return 0;
+        return this.hoursWorked * this.hourlyPayment;
     }
 }
