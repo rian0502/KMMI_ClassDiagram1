@@ -11,6 +11,6 @@ public class SalariedEmployee extends Employee{
 
     @Override
     public int payment() {
-        return 0;
+        return this.salary;
     }
 }
