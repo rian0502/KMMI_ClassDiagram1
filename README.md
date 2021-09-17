@@ -2,4 +2,4 @@
 Tugas KMMI PBO tentang kelas Diagram
 - Muhammad Febrian Hasibuan 2017051033
 - Alif Akbar Kartadinata 2017051049
-- Miftahul Huda
+- Miftahul Huda Guntara 2015061038
