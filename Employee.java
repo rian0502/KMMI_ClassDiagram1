@@ -1,7 +1,12 @@
 public abstract class Employee {
-    private String name;
-    private String afm;
+    protected String name;
+    protected String afm;
 
+    public Employee(String name, String afm) {
+        this.name = name;
+        this.afm = afm;
+    }
+    
     public String getName() {
         return name;
     }
@@ -18,5 +23,5 @@ public abstract class Employee {
         this.afm = afm;
     }
 
-    public abstract int payment();
+    protected abstract int payment();
 }
