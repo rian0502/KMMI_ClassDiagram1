@@ -1,6 +1,11 @@
 public class SalariedEmployee extends Employee{
     private int salary;
 
+    public SalariedEmployee(String name, String afm, int salary) {
+        super (name, afm);
+        this.salary = salary;
+    }
+
     public int getSalary() {
         return salary;
     }
