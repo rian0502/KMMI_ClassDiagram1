@@ -2,6 +2,12 @@ public class HourtlyEmployee extends Employee{
     private int hoursWorked;
     private int hourlyPayment;
 
+    public HourtlyEmployee(String name, String afm, int hoursWorked, int hourlyPayment) {
+        super (name, afm);
+        this.hoursWorked = hoursWorked;
+        this.hourlyPayment = hourlyPayment;
+    }
+
     public int getHoursWorked() {
         return hoursWorked;
     }
