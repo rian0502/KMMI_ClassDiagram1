@@ -3,7 +3,7 @@ public class SalariedEmployee extends Employee{
 
     public SalariedEmployee(String name, String afm, int salary) {
         super (name, afm);
-        this.salary = salary;
+        setSalary(salary)
     }
 
     public int getSalary() {
