@@ -4,8 +4,8 @@ public class HourtlyEmployee extends Employee{
 
     public HourtlyEmployee(String name, String afm, int hoursWorked, int hourlyPayment) {
         super (name, afm);
-        this.hoursWorked = hoursWorked;
-        this.hourlyPayment = hourlyPayment;
+        setHoursWorked(hoursWorked)
+        setHourlyPayment(hourlyPayment)
     }
 
     public int getHoursWorked() {
