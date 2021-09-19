@@ -3,8 +3,8 @@ public abstract class Employee {
     protected String afm;
 
     public Employee(String name, String afm) {
-        this.name = name;
-        this.afm = afm;
+        setName(name)
+        setAfm(afm)
     }
     
     public String getName() {
