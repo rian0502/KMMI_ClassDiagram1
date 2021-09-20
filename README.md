@@ -30,7 +30,7 @@ classDiagram
 -  class HourlyEmployee{
 -       -int hourlyWorked
 -       -int hourlyPayment
--       +SalariedEmployee(String name,String afm,int hourlyWorked,nt hourlyPayment)
+-       +HourlyEmployee(String name,String afm,int hourlyWorked,nt hourlyPayment)
 -       +setHourlyWorked(int hourlyWorked)
 -       +setHourlyPayment(int hourlyPayment)
 -       +getHourlyWorked()  : int
