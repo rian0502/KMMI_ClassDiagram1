@@ -18,7 +18,7 @@ classDiagram
 -        +setAfm(String afm)   
 -        +getName() : String
 -        +getAfm()  : String
--        +payment() : int
+-        +abstract payment()
 -    }
 -    class SalariedEmployee{
 -        -int salary
@@ -38,4 +38,4 @@ classDiagram
 -       +payment() : int
 -   }
   
-![image](https://user-images.githubusercontent.com/83405871/133995281-103f8f13-572b-42cf-ab86-084c8a3a16d3.png)
+![image](https://user-images.githubusercontent.com/83405871/133996043-37c76bbd-fdb6-4106-9608-d5b2915bdf69.png)
