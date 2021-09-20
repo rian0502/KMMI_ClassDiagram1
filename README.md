@@ -7,11 +7,11 @@ Tugas KMMI PBO tentang kelas Diagram
 code diagram
 
 classDiagram
-    Employee <|--SalariedEmployee
-    Employee <|--HourlyEmployee
-    class Employee{
-        <<abstract>>
-        #String name
+-    Employee <|--SalariedEmployee
+-    Employee <|--HourlyEmployee
+-    class Employee{
+-        <<abstract>>
+-        #String name
         #String afm
         +Employee(String name,String afm)
         +setName(String name) 
