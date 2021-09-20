@@ -38,4 +38,4 @@ classDiagram
 -       +payment() : int
 -   }
   
-![image](https://user-images.githubusercontent.com/83405871/133996043-37c76bbd-fdb6-4106-9608-d5b2915bdf69.png)
+![image](https://user-images.githubusercontent.com/83405871/133996449-67bd18cd-c04e-4cc9-8e57-f5dc47d50b72.png)
